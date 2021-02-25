@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: segoe-ui_light, segoe UI Light, Segoe WP, Helvetica Neue, Helvetica, sans-serif;
     color: #526573;
 }
 
@@ -16,15 +16,16 @@ header{
     overflow: hidden;
 }
 
-.ul{
-    display: flexbox;
+ul{
+    display: flex;
     list-style: none;
     overflow: hidden;
     padding: 0;
     margin: 0;
+    /* border: 1px solid black; */
 }
 
-.ul li{
+ul li{
     float: left;
     width: 50%;
 }
@@ -36,7 +37,7 @@ header{
 }
 
 .phone-number{
-    float: left;
+    float: right;
     color: white;
 }
 
@@ -71,7 +72,7 @@ h1{
     text-align: center;
 }
 
-.h3{
+h3{
     text-align: center;
     margin-top: 0;
 }
@@ -93,7 +94,7 @@ h1{
 .icon-large{
     width: 240px;
     height: 210px;
-    margin-top: 0 auto;
+    margin: auto;
 }
 
 .icon-large img{
@@ -101,7 +102,7 @@ h1{
     width: 100%;
 }
 
-.p{
+p{
     padding: 0 50px;
     text-align: center;
     margin-top: 30px;
@@ -125,7 +126,7 @@ section.after-content{
     background: url(../img/after-content-bg.png) center center no-repeat;
 }
 
-.h2{
+h2{
     margin: 0 0 -10px 0;
     text-align: center;
     font-size: 26px;
@@ -134,10 +135,10 @@ section.after-content{
 .form-elements{
     padding: 20px 0 0 0;
     width: 760px;
-    margin: 20px 0 auto 0;
+    margin: 20px auto 0 auto;
 }
 
-.form{
+form{
     margin: 0;
 }
 
